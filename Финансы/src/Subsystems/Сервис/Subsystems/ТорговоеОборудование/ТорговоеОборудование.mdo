@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="530f4f10-b416-44b8-aa8c-cd7692e89abd">
+  <name>ТорговоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговое оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ПортСканера</content>
+  <content>Constant.ИспользоватьСканерШтрихКода</content>
+  <content>CommonTemplate.Драйвер1ССканерШтрихкода</content>
+  <content>DataProcessor.СервисПроверкиЧеков</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

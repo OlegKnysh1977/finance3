@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47f1a1d9-f7c1-4931-b24f-b379a8026556">
+  <producedTypes>
+    <objectType typeId="b6953494-7854-4fd3-a8f2-c642c90cc51a" valueTypeId="14d13fbf-f8cb-45e2-b79f-2417ccb36242"/>
+    <refType typeId="c56c2c46-0dce-426c-afe6-1e68ced1c138" valueTypeId="31c4eefc-a5b2-4a42-9b44-18d6d6ac00ce"/>
+    <selectionType typeId="ef40d0cc-08bf-4468-9b69-38b53d1f9338" valueTypeId="ee7299df-982a-45a6-a316-da018c7d502d"/>
+    <listType typeId="0ed46e52-4391-4a43-acd2-cafb1efb58c6" valueTypeId="b54f91f5-6acd-4974-8a81-7b381eb0b4bc"/>
+    <managerType typeId="3471b81f-b894-490d-b7ce-40bc2e6b352f" valueTypeId="2e376185-1d58-4d04-b638-fdaeee61affb"/>
+  </producedTypes>
+  <name>ЗадачиПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗадачиПроектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗадачиПроектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Проект</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

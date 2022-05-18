@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95d46086-2876-40e8-9f27-af9218cf20de">
+  <producedTypes>
+    <objectType typeId="b0061230-4fb3-46b1-9db4-a245a352320a" valueTypeId="6a513efd-bbd4-413d-9100-329658e6ee44"/>
+    <managerType typeId="3a16dbda-7e9d-4540-8614-b6d5a7b378dd" valueTypeId="2c305638-2d9d-4e61-b017-f87640e12817"/>
+  </producedTypes>
+  <name>ЗагрузкаТранзакцийRaiffeisenБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка транзакций raiffeisen банка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаТранзакцийRaiffeisenБанка.Form.Форма</defaultForm>
+  <attributes uuid="a0893501-6016-4c02-8d01-6d5dd1737cb5">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="17b7a8ab-fd9e-4ecb-8fba-ea6f1180c024">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

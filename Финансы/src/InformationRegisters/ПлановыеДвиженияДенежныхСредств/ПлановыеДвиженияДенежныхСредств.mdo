@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="440cc419-f016-4cc8-acab-36a564b0bb46">
+  <producedTypes>
+    <selectionType typeId="db47ce0a-7cf5-4366-91e3-78965c4efbab" valueTypeId="ace92eb8-fc2d-4574-90a8-ccabec378cf8"/>
+    <listType typeId="2227e7b2-5b05-457e-9263-d58542d7229e" valueTypeId="39abf95b-e8df-4be6-b350-9ceb02f4f0ca"/>
+    <managerType typeId="0becec1f-558a-478a-91e5-49aaf9db975d" valueTypeId="3db185f9-5c98-429e-8ec8-268beeed91c8"/>
+    <recordSetType typeId="ed493d6b-797f-4f1f-bf5f-44dea48135f7" valueTypeId="c91111ba-baf6-41ec-a7c2-0d9c1e2835da"/>
+    <recordKeyType typeId="5dc271a0-b4d9-4259-aa52-90c9bd7f1b23" valueTypeId="37e60d5a-b529-49d0-a3ad-27845429bed4"/>
+    <recordType typeId="85d17700-cfcb-4ecc-9033-6ed656bf5fda" valueTypeId="f62dc5b9-bb57-4ebf-bfaa-acfc0f51ec0f"/>
+    <recordManagerType typeId="87a79476-cd8b-4620-95d7-22f82d3db542" valueTypeId="a4cedfbc-a869-41ef-8f1d-e44b8965b8dc"/>
+  </producedTypes>
+  <name>ПлановыеДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ca2c25d6-0c46-4c37-9b07-aa9585b37b96">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3f114972-dbd8-41a2-8e01-a553ba29ad96">
+    <name>ВариантБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант бюджета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыБюджетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e649f315-db60-44cd-8136-1fc5b6250e81">
+    <name>СтатьяДоходовИРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов и расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

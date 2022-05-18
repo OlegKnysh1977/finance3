@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d73ca6b6-7f3b-4b50-a924-b2239d542293">
+  <producedTypes>
+    <selectionType typeId="a28f6b35-5451-4f69-af4f-0f6d3fbe2f34" valueTypeId="256e3260-2d52-4fd0-8499-fd622e725ef4"/>
+    <listType typeId="22dab89c-8e78-4aa9-ae01-48854d68b05b" valueTypeId="e525430b-16c1-449a-97ff-00389dbd803b"/>
+    <managerType typeId="97f4e5a0-74bf-48d3-8fc8-bc38ea2516e0" valueTypeId="be56b50a-d3e0-4225-86b4-696ec8d0c227"/>
+    <recordSetType typeId="c6085f25-688e-4933-ae0f-4c09e224f102" valueTypeId="0da80096-ccb3-4b11-b0e0-fc9f74c7bebe"/>
+    <recordKeyType typeId="6c8c0370-35b5-4b89-ae4e-beb64e579eef" valueTypeId="71355ecd-d8ad-486d-9725-167bbc79f70e"/>
+    <recordType typeId="8de9d9ff-ea35-400b-a739-bb66da948f13" valueTypeId="e2f8d72f-375f-4d27-a4d2-754d9701faed"/>
+    <recordManagerType typeId="d1932f73-3315-4660-9b18-002766215ab3" valueTypeId="e48f56b6-8d80-48e1-8222-a8f83406677a"/>
+  </producedTypes>
+  <name>СоответствиеСтатейБюджетаИСтатейДоходовРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие статей бюджета и статей доходов расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СоответствиеСтатейБюджетаИСтатейДоходовРасходов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СоответствиеСтатейБюджетаИСтатейДоходовРасходов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cac44904-b0c5-4917-a1c8-24dd1bb4d7f0">
+    <name>СтатьяБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья бюджета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиБюджета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d9e2726c-0315-4e7f-b41e-add910d609f3">
+    <name>ВариантБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант бюджета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыБюджетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="04d1ebce-4753-4ac9-a25f-07ac7496790c">
+    <name>СтатьяДоходаРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья дохода расхода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fa07505a-5a57-4407-a368-32496609c029">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4010f03-73df-4d82-85be-2c2a817dd49b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

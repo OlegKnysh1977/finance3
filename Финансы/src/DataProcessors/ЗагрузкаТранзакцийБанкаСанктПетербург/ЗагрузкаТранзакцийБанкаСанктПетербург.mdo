@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9daacab7-9a40-43f1-990b-5a45ddb203a8">
+  <producedTypes>
+    <objectType typeId="0d5623f2-7963-4a84-ae49-521eb171f7f3" valueTypeId="6a68dd83-7486-455f-bac2-4ce8e39065a5"/>
+    <managerType typeId="bdcdfec6-3939-43d6-b292-b9b2db479a6d" valueTypeId="4f39a3c2-9f2f-46de-94ba-9ed84898565e"/>
+  </producedTypes>
+  <name>ЗагрузкаТранзакцийБанкаСанктПетербург</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка транзакций банка санкт петербург</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаТранзакцийБанкаСанктПетербург.Form.Форма</defaultForm>
+  <attributes uuid="3ed9410d-af02-4c04-a5e1-3873bb83fda9">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e0b4a7b5-8327-40cf-8901-ed11caac3856">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

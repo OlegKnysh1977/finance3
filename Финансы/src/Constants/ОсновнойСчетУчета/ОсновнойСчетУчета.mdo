@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b107e8b6-a873-435f-ae49-70ac61de20c5">
+  <producedTypes>
+    <managerType typeId="f94d9c99-32a5-496e-af79-77e48ef8bc43" valueTypeId="557b2b42-02a2-4761-80b1-82c361c694e7"/>
+    <valueManagerType typeId="787b75f5-ec01-425e-980a-ff1564ffab23" valueTypeId="cfdcd761-c1ae-43cd-80f2-68eb1d43dffc"/>
+    <valueKeyType typeId="372a7776-b9d6-5104-9a33-4dc7e46b7d18" valueTypeId="60cee155-ab8c-50c6-9993-abbbba222c35"/>
+  </producedTypes>
+  <name>ОсновнойСчетУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной счет учета</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СчетаУчета</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

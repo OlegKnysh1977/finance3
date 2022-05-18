@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4924f1b2-a82e-4463-a1ef-92d1b1b2b256">
+  <producedTypes>
+    <selectionType typeId="01c9a627-e1ef-475f-89f8-1814dcb6851a" valueTypeId="ed51dabb-6dbe-4345-904a-5f3fc2cb53eb"/>
+    <listType typeId="f8754689-d374-449f-9e6d-ed64d7bfae30" valueTypeId="8bf862a3-5f4a-4345-9bf6-793569908328"/>
+    <managerType typeId="e3e6c996-b6c5-4744-84f9-a6da6fb5152b" valueTypeId="b342c946-0c52-4f8a-a13a-42b312154435"/>
+    <recordSetType typeId="c322f0f2-a82e-49bb-b56a-c383499e72e0" valueTypeId="cde90eb4-d10a-4c7a-9dcf-60de7d5e5583"/>
+    <recordKeyType typeId="40ada60f-638a-4f5b-8070-776f7f013ed4" valueTypeId="cea14416-2bc6-4234-b11d-2ddceeacab32"/>
+    <recordType typeId="7348a8f6-d29d-4db7-8f4e-f896e28e7941" valueTypeId="597d2e4d-1a37-4c03-a6b3-05e993969ee7"/>
+    <recordManagerType typeId="4b8e8363-c502-4854-8d15-93c338fe74f5" valueTypeId="638ffb4a-edb3-47b5-b089-696165b631ea"/>
+  </producedTypes>
+  <name>РабочееВремя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее время</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a0828b46-11a9-47fa-8576-ffe0da16cfde">
+    <name>ВыработкаЧистыхЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выработка чистых часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0051e162-d575-42ff-ab25-f83e688dbbc1">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e835e0e-ebb3-40b5-a8c4-4acab26a8333">
+    <name>ВыработкаОбщихЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выработка общих часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a2328805-7fbd-4e5d-bc5d-a6c5e71560ce">
+    <name>Работа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0bbf8ba6-e542-4e8d-b320-a0decc75c1cd">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e743f63f-c02b-4f4f-98bf-810865095d1a">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиПроектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.РабочееВремя.Dimension.Проект</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d9548c12-af68-461f-aff3-65ec10d58df7">
+    <name>ЗанесеноВРедмайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занесено в редмайн</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="32d6de0f-e623-4460-9e25-c49dfd22104f">
+    <name>ЗанесеноВ1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занесено в 1С</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="26f98360-2135-4cc5-961f-3e9f3c5201f3">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="67c5843f-9d58-4837-b419-caa906fb50b1">
+    <name>ДатаРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bf19092b-5274-42bc-ba33-d4593cfcfe4f">
+    <name>НачалоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5172d7b8-cb67-4460-9113-7ab751d8bf48">
+    <name>ОкончаниеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание работы</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

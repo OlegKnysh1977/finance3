@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a1d413-e569-4787-8d48-4b05746b44ba">
+  <producedTypes>
+    <objectType typeId="72c76a4c-63bd-47e9-9ebe-96552fe9cb65" valueTypeId="459ef7fe-6d6f-4e2a-b3b1-321844b349cd"/>
+    <refType typeId="35d2eab5-a2c2-465c-8173-df59c6c6a4cf" valueTypeId="a8a00a38-b821-401e-946c-e9e43502173b"/>
+    <selectionType typeId="ca7b3843-87c6-478e-b146-f568d43e6597" valueTypeId="9ee08693-a211-4c18-ab40-c9d1081b2598"/>
+    <listType typeId="3d73654b-ba0b-461d-8927-ef6413923b70" valueTypeId="a2c5a486-1e27-4b64-b55c-d23002348cba"/>
+    <managerType typeId="2bdf09bc-38ea-4a95-b14e-1f2ca2bd4af9" valueTypeId="9c8a83ff-26d0-4142-bd2c-6183c1f45647"/>
+  </producedTypes>
+  <name>ПеремещениеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПеремещениеДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата списания</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПеремещениеДенежныхСредств.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПеремещениеДенежныхСредств.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ПеремещениеДенежныхСредств.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.ОстаткиДенежныхСредств</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияДенежныхСредств</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0d46db05-1fec-4067-9708-f59bba2989a5">
+    <name>ДатаЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата зачисления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84fa9ef7-07cc-4402-bb94-89b326230c5e">
+    <name>СчетУчетаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет списания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cf33f10-c880-487a-b19a-f5f9d0c9d2b6">
+    <name>СчетУчетаЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет зачисления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="adaa2c17-b652-4801-897f-ae941b2fb078">
+    <name>ВалютаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта списания</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e271246-2052-4d88-8935-4e6b44e111a1">
+    <name>ВалютаЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта зачисления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc311a78-9b33-46d6-bfc2-a3bff2669388">
+    <name>СуммаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма списания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c39a9140-9130-4458-9faa-6455193ac76b">
+    <name>СуммаЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма зачисления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <markNegatives>true</markNegatives>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4847f18a-86bd-46d0-a5f8-77fe6fa98a6c">
+    <name>СтатьяПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья перемещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтатьиДоходовИРасходов.ПеремещениеДенежныхСредств</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="374f5b6c-1e01-422f-9a44-78e6a04c9190">
+    <name>МестоПеремещенияДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место перемещения денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаРасходовДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5cd7ac9-e7e1-4f5a-85fb-e51e0a27ea60">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bb6f84fc-de5f-4319-abaf-7d392ab9779b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="075d93f8-43dd-4f7c-812c-330f02655b0f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d4a281b-0e1f-4934-b708-73753951a1aa">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

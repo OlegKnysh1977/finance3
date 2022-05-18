@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c57e4065-707b-499a-86b8-11b2f3193a89">
+  <producedTypes>
+    <refType typeId="28b0c640-d64c-412f-8974-634843fb3bd0" valueTypeId="ab3b53d6-4213-4f61-ae92-a19658425d72"/>
+    <listType typeId="64d657cb-b29d-423a-9caa-0e01d605de80" valueTypeId="fa0c76df-fe36-4959-8eb2-2c562df59293"/>
+    <managerType typeId="0ef920a9-ec27-46d6-b73f-e34c87a79c33" valueTypeId="8f97c200-2a30-4f95-b8f4-a85de2b7f273"/>
+  </producedTypes>
+  <name>ТипСтатьиДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип статьи доходов и расходов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="213bb94b-a133-4f59-bab5-b7cce1302853">
+    <name>Доходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9c8a92f-11e5-48ec-91c4-76267bbd2f1c">
+    <name>Расходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a18f1d8e-3b1d-4bb6-b016-cc29795f5e6d">
+    <name>Смешанное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смешанное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

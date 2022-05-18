@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce5b48cf-e0b6-4e7d-9efb-5ce1e076a5af">
+  <producedTypes>
+    <objectType typeId="4e5e7f14-41b9-4c55-bd13-7622fa7cc41c" valueTypeId="bdfd86c5-e9b0-4264-b5f3-039094d3e51c"/>
+    <managerType typeId="c6e457b2-f26d-4121-9b45-f81e8b86ada8" valueTypeId="811d8c31-fc8c-4d9e-a740-7549520d233d"/>
+  </producedTypes>
+  <name>ПоискСоответствияМеждуТранзакциямиИДокументами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск соответствия между транзакциями и документами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискСоответствияМеждуТранзакциямиИДокументами.Form.Форма</defaultForm>
+  <attributes uuid="bdb34aa9-94df-4418-b8b1-e44cc080c63a">
+    <name>НачальнаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bd6e52d8-d806-4ab1-b958-2ea6ab5a73cf">
+    <name>КонечнаяДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конечная дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="09098b00-a65a-4321-a14f-9f580616d9f9">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7bb6ea7a-e418-45ca-b352-b4935225236c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f416a765-1592-499d-9b11-eb3c12857a85">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

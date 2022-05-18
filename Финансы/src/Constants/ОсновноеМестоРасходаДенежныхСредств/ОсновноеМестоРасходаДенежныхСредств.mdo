@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c892cc71-8709-4c22-b267-82e58b16f5c7">
+  <producedTypes>
+    <managerType typeId="39c85edd-2d01-4f41-b6f9-f575643b4a99" valueTypeId="333f33ce-68e2-489c-a4e3-983676afbe8e"/>
+    <valueManagerType typeId="02ef45fa-d9ed-484d-9765-ba4e3c6ddd69" valueTypeId="e69605ba-8dff-4bd7-b271-9d4939a1652c"/>
+    <valueKeyType typeId="00ddfc2e-0ff0-5e38-93c1-8e48b098e181" valueTypeId="0c23ed4d-7bb7-5322-bc7b-0314ba99d705"/>
+  </producedTypes>
+  <name>ОсновноеМестоРасходаДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное место расхода денежных средств</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.МестаРасходовДенежныхСредств</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

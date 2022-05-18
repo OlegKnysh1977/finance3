@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ea2919c-f399-4fd3-9b01-0266076f16d0">
+  <name>Меню_Счета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Меню счета</value>
+  </synonym>
+</mdclass:CommonPicture>

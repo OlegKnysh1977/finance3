@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1ebe159-55fb-4957-8d60-85cd74078579">
+  <name>НастройкаЗагрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка загрузок</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СоответствияТочекОплатыИЦелейЗаргузки</content>
+  <content>Catalog.МестаТранзакцийИзБанкКлиента</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

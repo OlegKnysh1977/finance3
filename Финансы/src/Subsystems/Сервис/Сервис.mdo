@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f03b1fd-ebb9-4d62-8179-6fee631d07cc">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Меню_Сервис</picture>
+  </picture>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>CommonPicture.Меню_Сервис</content>
+  <subsystems>Классификаторы</subsystems>
+  <subsystems>НачальныеОстатки</subsystems>
+  <subsystems>НастройкаЗагрузок</subsystems>
+  <subsystems>УправлениеПользователями</subsystems>
+  <subsystems>ТорговоеОборудование</subsystems>
+</mdclass:Subsystem>

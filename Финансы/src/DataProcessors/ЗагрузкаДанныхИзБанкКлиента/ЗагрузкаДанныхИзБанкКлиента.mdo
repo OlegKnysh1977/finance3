@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="487a9631-c69f-433d-86c8-3593db31eba4">
+  <producedTypes>
+    <objectType typeId="286288e2-5d31-4b00-9f07-22d73d600c71" valueTypeId="b1d364f9-10ef-45ef-9384-b882c5afc8ae"/>
+    <managerType typeId="eb20048e-2b13-4aad-8a51-fcd93df178d1" valueTypeId="2572ada1-cb71-40bf-b0c8-d47152fe2804"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхИзБанкКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из банк клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхИзБанкКлиента.Form.Форма</defaultForm>
+  <attributes uuid="7c369958-5b42-4fe5-a4f7-baf6abaabca3">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff669fed-4bb6-481e-86be-d41a6c6c89ab">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="0353227f-ed4c-4919-8245-10cf2e6255bf">
+    <producedTypes>
+      <objectType typeId="8f94f493-b7f0-41a5-a987-ce430509a029" valueTypeId="868a936b-4180-44e6-80ad-6f76af18e578"/>
+      <rowType typeId="2c202fc8-41a5-488c-a00e-33429c2aeff4" valueTypeId="7e3d58fb-46e5-4008-9e75-2d480fafaaa6"/>
+    </producedTypes>
+    <name>ПредварительныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительные данные</value>
+    </synonym>
+    <attributes uuid="5c5c4935-1db7-4842-b9ca-940f85c2fcdc">
+      <name>ПрочитаннаяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прочитанная строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="dec0ea25-07c4-43d5-9f52-72a9d26bfa89">
+      <name>ДатаДвижения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата движения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f6e0392f-437c-4f0f-92b9-74cc54bf1170">
+      <name>ДатаТранзакции</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата транзакции</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="34d9caf4-633d-4bb5-93be-601499470fef">
+      <name>ТочкаОплаты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка оплаты</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>512</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c3d3306b-08da-4aad-8b04-d5b147c9bdf0">
+      <name>МестоПлатежа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Место платежа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.МестаРасходовДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="89573d39-b8e7-4242-b83d-e144160554f2">
+      <name>СтатьяДоходовРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья доходов / расходов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДоходовИРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="916208a6-bf16-4378-b137-a33c6ebb7ac4">
+      <name>СуммаПлатежа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма платежа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="052ab104-4ab3-4ff6-b24f-0403ecfe95bd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93aab0f4-d10c-4ad9-9b95-27d544654de6">
+    <name>ФормаЦелейСоЗначениямиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма целей со значениями по умолчанию</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="926c4b50-bf81-43c0-8925-658cb11f11ba">
+  <producedTypes>
+    <selectionType typeId="7e5f976d-e818-4ff1-b289-d2bb527d01a0" valueTypeId="7684f692-4133-47b3-8aca-148481f2baec"/>
+    <listType typeId="fb35cd4f-46e3-4de6-99b6-a1817a5a4b9c" valueTypeId="35473a80-ece1-4211-8790-3a31cae675e3"/>
+    <managerType typeId="21bdb96f-086c-447e-9771-5b3fd2694ed3" valueTypeId="72cf5283-367c-479b-b5b7-0fcf09df4e79"/>
+    <recordSetType typeId="8d788689-a34f-4dc3-a1f9-43c8fc0809b4" valueTypeId="31184198-6884-4344-9191-8b3e95c83343"/>
+    <recordKeyType typeId="6554931a-73f2-4921-8dd4-4a4a9403955c" valueTypeId="36918287-d50d-4d9e-8b72-e60084290215"/>
+    <recordType typeId="3c3f2a27-c40e-4ffb-a109-df3b2ff8f1a6" valueTypeId="1b938457-b0b5-41a2-9241-46189296a0f7"/>
+    <recordManagerType typeId="f1ec6dad-50e0-486d-8f4d-864c81edc279" valueTypeId="a14c4af6-db37-4d54-abc5-b77689d6fd22"/>
+  </producedTypes>
+  <name>ИсторияЦенПокупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>История цен покупок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="75e83c2e-7f70-4915-82c1-7e5ae3c20df6">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7f3b0d37-a583-4c9e-93c6-e7b79ab48859">
+    <name>МестоРасходовДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место расходов денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаРасходовДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e7ea995-aacd-4ce4-8dd3-6a2492a73938">
+    <name>СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

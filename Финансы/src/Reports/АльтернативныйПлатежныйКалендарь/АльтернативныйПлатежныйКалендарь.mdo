@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b094b01d-0f15-4185-880c-dcec5e995bb5">
+  <producedTypes>
+    <objectType typeId="a2c78bfa-20bf-4924-abe3-458ee1646723" valueTypeId="7443673c-f675-4fd8-8d12-543debc1023a"/>
+    <managerType typeId="82f48bfb-590f-4c5a-a99a-59209767f7d5" valueTypeId="09de7d10-37be-4044-afa1-336942f37353"/>
+  </producedTypes>
+  <name>АльтернативныйПлатежныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Альтернативный платежный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АльтернативныйПлатежныйКалендарь.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АльтернативныйПлатежныйКалендарь.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="af6163ee-dffb-4478-8d7f-dd186151c68b">
+    <name>Дата1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата1</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="290daa24-449f-4543-8f0b-b0c2dfad5575">
+    <name>Дата2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата2</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dd645918-ba9d-41c9-8b08-bcd795d75b1a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="56136754-6027-47d7-879e-84ee6dd44041">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

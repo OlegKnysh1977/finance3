@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8d1aa0e-70f9-4a1d-a0d4-355b1eeafc63">
+  <name>УправлениеПользователями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление пользователями</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.Пользователи</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Catalog.Пользователи</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>Catalog.Пароли</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

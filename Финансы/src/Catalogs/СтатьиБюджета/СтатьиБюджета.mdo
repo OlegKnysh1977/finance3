@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdb72510-1169-4a13-a90f-ce645072f126">
+  <producedTypes>
+    <objectType typeId="8eb56cc8-2bcc-4e70-a45d-7f2a50d59315" valueTypeId="a5783e4b-bd34-4ec6-882d-426b5b91dbd5"/>
+    <refType typeId="71835444-f375-49d6-8c6b-4ce03b8ec6b4" valueTypeId="05e527d9-d4df-413e-8067-71142172a802"/>
+    <selectionType typeId="ae418cc0-071e-4963-b811-899a2841e86a" valueTypeId="a09e8e7d-d9e0-4253-8285-74393a1c63a1"/>
+    <listType typeId="e7bf9af3-a281-4671-9727-7eec7ddd7002" valueTypeId="265b1559-0596-4eeb-bd6c-d647dae347d2"/>
+    <managerType typeId="edf999ef-c210-43cf-bbee-d92e85b8e104" valueTypeId="5ccc0db0-87df-4898-a1fa-01e9f3ebadc0"/>
+  </producedTypes>
+  <name>СтатьиБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиБюджета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиБюджета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиБюджета.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатьиБюджета.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатьиБюджета.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0481ec82-2551-43dc-aa93-71110c86c7e7">
+    <name>ВидСтатьиБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид статьи бюджета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСтатейБюджета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыСтатейБюджета.EnumValue.Расход</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3eafb9de-84ea-433f-be26-2df2a44f54b1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30f9598e-148c-4ae1-9b9f-d187c4dd06de">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8008870-67bb-40a2-8fb1-eacc68f09e7e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

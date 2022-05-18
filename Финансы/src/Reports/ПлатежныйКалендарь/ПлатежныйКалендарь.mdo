@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b0be253-08e0-49bf-a326-515128efbcd8">
+  <producedTypes>
+    <objectType typeId="7e1a50e6-34ad-43df-a75b-ac83daa102f7" valueTypeId="b27daa8d-2a62-4ce0-9752-1e5558dd5af0"/>
+    <managerType typeId="a3fae187-b373-41b6-98a2-6c2d0c2485bd" valueTypeId="312001e9-b70b-45ad-a633-4e4f42b2184e"/>
+  </producedTypes>
+  <name>ПлатежныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПлатежныйКалендарь.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="11052817-077c-4542-83f1-4566e79b7b5f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

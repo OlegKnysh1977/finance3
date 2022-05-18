@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c49cf6fe-3232-4cf1-92f1-8790f5f0e182">
+  <name>Меню_Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Меню бюджет</value>
+  </synonym>
+</mdclass:CommonPicture>

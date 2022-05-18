@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c56f2012-a1e3-46f4-9236-312a0702a5c1">
+  <name>НачальныеОстатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начальные остатки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВводНачальныхОстатковДенежныхСредств</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

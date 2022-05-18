@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2423bfb7-91d5-4305-9f41-94f946513f6b">
+  <producedTypes>
+    <refType typeId="9cc92ef1-df32-4fe0-8893-34cc2071b761" valueTypeId="daade63c-98cf-4510-8ac4-ccb64ee5c061"/>
+    <listType typeId="0f6afba3-2e89-4fcd-9e9a-4182566b1a2a" valueTypeId="59842eb5-f093-4803-812c-75ca9ebf7339"/>
+    <managerType typeId="32bc028d-5129-4fa7-8517-195d8d82e7d1" valueTypeId="106be63f-c165-49ac-ba50-d7c49df98f3d"/>
+  </producedTypes>
+  <name>СпособыВызоваДополнительныхОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы вызова дополнительных обработок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b58a7e3a-b8cd-4e49-92cb-37613fe71c80">
+    <name>ВызовКлиентскогоМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов клиентского метода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3988445b-cb99-458e-bd3f-a7d641068a90">
+    <name>ВызовСерверногоМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов серверного метода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22bdf418-dafd-4806-91b3-867362098e88">
+    <name>ОткрытиеФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытие формы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3530dc11-9c92-49f7-9c0a-3b955d38b335">
+  <name>СтандартныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>БазоваяФункциональность</subsystems>
+  <subsystems>Валюты</subsystems>
+  <subsystems>ЗавершениеРаботыПользователей</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>ЗаполнениеОбъектов</subsystems>
+  <subsystems>КалендарныеГрафики</subsystems>
+  <subsystems>НастройкаПорядкаЭлементов</subsystems>
+  <subsystems>НастройкиПрограммы</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>ОтчетОДвиженияхДокумента</subsystems>
+  <subsystems>ПодключаемыеКоманды</subsystems>
+  <subsystems>ПолнотекстовыйПоиск</subsystems>
+  <subsystems>ПолучениеФайловИзИнтернета</subsystems>
+  <subsystems>Пользователи</subsystems>
+  <subsystems>РегламентныеЗадания</subsystems>
+  <subsystems>РезервноеКопированиеИБ</subsystems>
+  <subsystems>СтруктураПодчиненности</subsystems>
+  <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>УправлениеИтогамиИАгрегатами</subsystems>
+</mdclass:Subsystem>

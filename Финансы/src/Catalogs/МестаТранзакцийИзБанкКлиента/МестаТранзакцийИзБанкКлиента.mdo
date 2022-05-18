@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd989eb5-49dd-4faa-8f8c-6922372046b8">
+  <producedTypes>
+    <objectType typeId="22eded02-65a7-4960-928d-ada528b1dfbf" valueTypeId="2199eef2-4741-4cf0-a79f-97458c91c84c"/>
+    <refType typeId="ec44eb70-ea7a-4de9-9874-702a9830f83e" valueTypeId="c9d41bf6-5f6a-402e-9bd7-b504f5f7f1f1"/>
+    <selectionType typeId="3d4dd241-211e-4158-b3c6-d8d84a8df2db" valueTypeId="2b0f0316-707b-49d9-8ea1-68b34a24402c"/>
+    <listType typeId="6b70c0b9-10ba-4b4c-ac77-1473ba1b955d" valueTypeId="46072606-c388-4b31-a51a-0a44302fb156"/>
+    <managerType typeId="17c7a32f-817e-45d8-be7c-dbba53744622" valueTypeId="b5090e9a-0c57-4d09-80ae-9342fd95e2bf"/>
+  </producedTypes>
+  <name>МестаТранзакцийИзБанкКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места транзакций из банк клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаТранзакцийИзБанкКлиента.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="fca80460-117c-4f2e-b503-d2f4dde74584">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

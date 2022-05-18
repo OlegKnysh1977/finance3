@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84a7ef91-b7b4-46de-8241-3f99a54fd625">
+  <producedTypes>
+    <managerType typeId="ac59bae6-bd82-424a-b3f7-a1c07413db64" valueTypeId="74018168-8bac-4f98-b9bf-10e239318e4a"/>
+    <valueManagerType typeId="7918697c-6800-4554-a721-8248b089e6d9" valueTypeId="070c3513-03af-4cad-bbba-25fcf3765a7a"/>
+    <valueKeyType typeId="e98f3882-1c39-4a00-b15f-c5a11b30a2d4" valueTypeId="e7636eea-b627-4bd6-8709-2399fc5409de"/>
+  </producedTypes>
+  <name>ПортСканера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт сканера</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

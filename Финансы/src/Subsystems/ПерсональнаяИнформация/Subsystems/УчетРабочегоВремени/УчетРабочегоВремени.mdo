@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2977f95-6046-4bb4-9f6f-fb4dd9ec5353">
+  <name>УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Проект</content>
+  <content>InformationRegister.РабочееВремя</content>
+  <content>Catalog.ЗадачиПроектов</content>
+  <parentSubsystem>Subsystem.ПерсональнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

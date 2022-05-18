@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26ace7ec-215f-4056-bf7b-e3e2d555f6d7">
+  <producedTypes>
+    <objectType typeId="499c36d5-1a13-4a3f-8308-94aa61799dc5" valueTypeId="34b5865e-3024-47f1-a68f-d43f7c49099e"/>
+    <managerType typeId="40e3bc3f-ea08-4d4e-ac72-ecabe0c174cf" valueTypeId="4150b598-f8ec-4ba4-b0e3-4d3d1cfec14d"/>
+  </producedTypes>
+  <name>РасчетКредитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет кредитов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасчетКредитов.Form.Форма</defaultForm>
+  <attributes uuid="113dedfe-98ae-4dfc-9318-a9252eb5bc5d">
+    <name>СуммаКредита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма кредита</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="13c9bcad-afba-46e9-bb3a-05dd5abcf488">
+    <name>ГодоваяПроцентнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая процентная ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cda3455d-9aaf-4b07-b451-0c6d7665f11c">
+    <name>КоличествоМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество месяцев</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4f6f70ac-7643-4776-8e7e-5ca7fef2f432">
+    <name>ЕдиновременнаяКомиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единовременная комиссия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e97915e5-4e01-4f73-b7b8-ed43b14d5dc9">
+    <name>МесячныйПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячный платеж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="114ef16f-a539-448f-8a5d-5bed5bf1c5a2">
+    <name>ЭффективнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эффективная ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc3b8740-f319-4722-8c47-32a53525b689">
+    <name>СуммаПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма процентов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="76a73e9f-a55d-4ace-9d0b-3bbf8f81c2dd">
+    <name>ПолнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c57eae2a-db08-4481-86ca-32be70c28aea">
+    <producedTypes>
+      <objectType typeId="58bdc6e5-0162-42f7-8b09-bb8a62fda579" valueTypeId="b5b6c301-04b8-4855-91a6-c342a2af14b6"/>
+      <rowType typeId="f86c26b0-a280-4d09-8027-138be6f47245" valueTypeId="00a43e9b-1c48-4196-9431-f5e73afd0c91"/>
+    </producedTypes>
+    <name>ТаблицаВыплат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица выплат</value>
+    </synonym>
+    <attributes uuid="14d416fc-3e44-406f-9feb-6d893f8a4a54">
+      <name>Баланс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Баланс</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ea798df3-0f7f-4f4a-8b74-b23486a3043a">
+      <name>Выплата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выплата</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f2d14b1e-ca7c-4633-93e9-a591e0645ea9">
+      <name>Проценты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проценты</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="752b2762-3a2f-408a-bbd5-b1b396e984af">
+      <name>Платеж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Платеж</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="faa862cc-40b5-433d-9f83-1d226ec017ae">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

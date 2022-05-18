@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff5d830-2ab1-4141-9271-f652a19eeca2">
+  <name>Классификаторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификаторы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.СчетаУчета</content>
+  <content>Catalog.СтатьиДоходовИРасходов</content>
+  <content>Catalog.МестаРасходовДенежныхСредств</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

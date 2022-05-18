@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="461c9ca4-e329-45f4-a5aa-fb255f4155f5">
+  <producedTypes>
+    <selectionType typeId="80149c4b-587f-4a72-967a-b4aab84f7140" valueTypeId="9f25fce7-5c94-4b70-8480-1b5a2cebc1da"/>
+    <listType typeId="3b8c329c-7eb8-45f1-af15-d452e777b863" valueTypeId="1193d0d1-70cc-4b77-aa1c-ac439b178951"/>
+    <managerType typeId="098addd3-50f8-467e-b1d6-fab3c9bedb96" valueTypeId="90880327-ec3a-47f5-b5d9-c25c48966f3d"/>
+    <recordSetType typeId="cbe7b778-e3d3-40cd-a219-a7c9e14361f3" valueTypeId="03adc430-935c-4114-aec7-fc1f212bbd3e"/>
+    <recordKeyType typeId="bbab824e-3858-4976-a18a-a246086689ac" valueTypeId="4df3c61a-75df-45cc-b6ee-d98e0681f644"/>
+    <recordType typeId="6b69ae9c-baf0-4ef6-9569-5d0e5db5fc20" valueTypeId="b8f951ae-9d1e-416b-95c6-dbb55bf37670"/>
+  </producedTypes>
+  <name>ПланируемыеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планируемые расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="16ce129b-fcab-458f-a37e-c5fb1a26b790">
+    <name>СуммаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма взаиморасчетов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="bb02b9bb-6750-4938-ade7-a4ef3515acdf">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0eeb9fb2-f7d0-416b-9a91-35b1eb90d07d">
+    <name>ПлановаяДатаПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата платежа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7b90fb2d-34d1-46f8-a2c9-6005ec7ec50e">
+    <name>СчетНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

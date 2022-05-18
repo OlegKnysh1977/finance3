@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e45f795-4578-47b2-9880-2f0d6c12d498">
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Меню_ДенежныеСредства</picture>
+  </picture>
+  <content>Report.ОстаткиДенежныхСредств</content>
+  <content>Report.ДвиженияДенежныхСредств</content>
+  <content>Document.РасходДенежныхСредств</content>
+  <content>AccumulationRegister.ДвиженияДенежныхСредств</content>
+  <content>InformationRegister.ИсторияЦенПокупок</content>
+  <content>Document.ПриходДенежныхСредств</content>
+  <content>Document.ПеремещениеДенежныхСредств</content>
+  <content>Report.ЦеныПокупок</content>
+  <content>CommonPicture.Меню_ДенежныеСредства</content>
+  <content>Report.АльтернативныйПлатежныйКалендарь</content>
+  <content>DataProcessor.РасчетКредитов</content>
+</mdclass:Subsystem>

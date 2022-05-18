@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5198872-a67c-4ba4-8405-ce58f1bc4bc5">
+  <producedTypes>
+    <objectType typeId="e96dca0e-9863-4b6f-91b0-07b043475e86" valueTypeId="6d965254-0372-40b3-b69c-a08982f4a4ef"/>
+    <managerType typeId="aa90a2e6-2f9a-4993-8286-af20b9183bf4" valueTypeId="8ca54dbc-a819-4572-9b53-73adb858ce9c"/>
+  </producedTypes>
+  <name>ДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДвиженияДенежныхСредств.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДвиженияДенежныхСредств.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="0f9c6827-d01a-4ef0-962a-b1a5f332a87f">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b145447-9c77-4feb-99c1-46e0317c777d">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6758ee41-c3d4-4ffb-b087-a3709eb00672">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="da306fe9-9975-4956-af59-b84b191deb00">
+    <name>СтатьяДоходовРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов и расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="ccc139f9-96da-4ae2-a1d9-8c643c418627">
+    <name>ВалютаДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9354f7cf-2d29-4e62-916a-4a5539f50838">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8d8ac0ec-ab2a-42d8-8aef-c6fa57686a10">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

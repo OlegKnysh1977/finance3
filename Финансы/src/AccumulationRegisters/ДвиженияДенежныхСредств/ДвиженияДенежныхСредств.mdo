@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c63322af-49d4-4c97-b17a-9de16a466920">
+  <producedTypes>
+    <selectionType typeId="65bdd841-bb0c-4631-b5e2-08b9aea7d4ed" valueTypeId="2a73d268-5b13-452b-953a-2097dc4d9be5"/>
+    <listType typeId="2be63280-5ac6-4ef0-83f6-806362e8aec1" valueTypeId="bdecd88f-fbbd-4bda-ad3c-97e7ba3247c4"/>
+    <managerType typeId="140c55df-5c74-4837-a0fc-c88a3a166269" valueTypeId="ccfeed52-2ddf-4569-bb98-09119f823b1c"/>
+    <recordSetType typeId="49ba3421-cc5f-4ac5-959f-d4f16f8f8921" valueTypeId="cab35cda-5add-49a5-987c-3854b797dfe6"/>
+    <recordKeyType typeId="02dfcced-679d-4750-9078-7880e1fab60e" valueTypeId="f5ea22d7-88ac-43e1-8d98-c2123998cb5c"/>
+    <recordType typeId="0dec3dd1-6c55-4656-8982-d10a80fa8d78" valueTypeId="21fff765-6847-4789-8ee4-19a16d034702"/>
+  </producedTypes>
+  <name>ДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ДвиженияДенежныхСредств.Form.ФормаСписка</defaultListForm>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5f749183-b386-4af3-8520-b400c891e51d">
+    <name>СуммаПрихода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма прихода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="511d1e22-a0b5-4eb4-85d8-7d3359544ced">
+    <name>СуммаРасхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма расхода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="100c9640-dcbb-4a9b-8401-51a158f7cee5">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="74e79f7e-a25e-401f-9166-81d57d6fa0cd">
+    <name>ВалютаДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта движения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e4dfd06f-a9ae-4576-942c-a69ad3189c7b">
+    <name>СтатьяДоходовРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="39c5d119-598c-4d68-9c5c-c43e55a0a342">
+    <name>МестоРасходовДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место расходов денежных средств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаРасходовДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="4e7f0717-40d0-4712-b839-c96681426312">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

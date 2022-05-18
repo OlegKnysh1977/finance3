@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9e6f1d1-6957-4513-8bde-ed2452ec293f">
+  <producedTypes>
+    <managerType typeId="8aed3856-be4f-493e-b641-e9052ba556f1" valueTypeId="70415bae-8e67-4b3f-a431-ddac5398ea5e"/>
+    <valueManagerType typeId="87e9cf6c-4094-4918-9e47-16e76a9909fb" valueTypeId="cc314e95-706b-4be8-998a-20f0b93d3b82"/>
+    <valueKeyType typeId="4ac07ee7-7728-4a39-b12b-e985273379cb" valueTypeId="e30a509c-682a-46a4-bc8a-dd1076838e74"/>
+  </producedTypes>
+  <name>ИспользоватьСканерШтрихКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сканер штрих кода</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

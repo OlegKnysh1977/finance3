@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3949e5b4-8aba-4fff-80f3-6a2eb306ebe8">
+  <name>СверкаСБанкКлиентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка с банк клиентом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СоответствияТочекОплатыИЦелейЗаргузки</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзБанкКлиента</content>
+  <content>Catalog.МестаТранзакцийИзБанкКлиента</content>
+  <content>Catalog.МестаРасходовДенежныхСредств</content>
+  <content>Catalog.Транзакции</content>
+  <content>DataProcessor.ЗагрузкаТранзакцийRaiffeisenБанка</content>
+  <content>InformationRegister.ИсторияТранзакций</content>
+  <content>DataProcessor.ПоискСоответствияМеждуТранзакциямиИДокументами</content>
+  <content>DataProcessor.ЗагрузкаТранзакцийБанкаСанктПетербург</content>
+  <content>InformationRegister.ИсторияТранзакцийНовая</content>
+</mdclass:Subsystem>

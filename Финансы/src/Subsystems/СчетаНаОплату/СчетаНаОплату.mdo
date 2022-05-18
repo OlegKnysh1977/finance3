@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e982cec-b391-4cf9-95d8-7f238c07d57c">
+  <name>СчетаНаОплату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета на оплату</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Меню_Счета</picture>
+  </picture>
+  <content>CommonPicture.Меню_Счета</content>
+  <content>Document.СчетНаОплату</content>
+  <content>AccumulationRegister.ПланируемыеРасходы</content>
+  <content>Report.ПлатежныйКалендарь</content>
+  <content>Report.АльтернативныйПлатежныйКалендарь</content>
+</mdclass:Subsystem>

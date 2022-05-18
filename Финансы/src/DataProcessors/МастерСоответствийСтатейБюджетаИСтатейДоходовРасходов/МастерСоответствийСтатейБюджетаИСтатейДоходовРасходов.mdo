@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94e3f19c-c64d-445f-99cc-3cf08fbf1f21">
+  <producedTypes>
+    <objectType typeId="f42114be-c9a5-4761-88a3-a6bf209aa6c0" valueTypeId="e11eefb5-d2df-44f7-808e-8055186e038d"/>
+    <managerType typeId="183f67ae-9785-4ee7-9d7c-ad4c0e1c2e8f" valueTypeId="281d45a2-d9aa-4780-99b5-6794584f1454"/>
+  </producedTypes>
+  <name>МастерСоответствийСтатейБюджетаИСтатейДоходовРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер соответствий статей бюджета и статей доходов расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МастерСоответствийСтатейБюджетаИСтатейДоходовРасходов.Form.Форма</defaultForm>
+  <attributes uuid="56d1c8dd-af13-4dda-845c-a8cef43856db">
+    <name>ВариантБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант бюджета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыБюджетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a30fe0b7-4722-4408-a8fe-b077061c3336">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

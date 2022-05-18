@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24a8f003-12b6-4b18-a3b4-ec729c4dd8dc">
+  <producedTypes>
+    <selectionType typeId="0053d80f-a7ea-41ab-856e-d52c1d31c68f" valueTypeId="04a80bfd-6ce2-49ab-bafe-ef7b0a3b57f8"/>
+    <listType typeId="6de79464-e8b9-46a0-9321-6b0c9908fcaf" valueTypeId="e2260e9d-474e-4fb6-8cfa-52e64e7075ad"/>
+    <managerType typeId="8dbdd96d-dfce-4978-9b96-f094590ab8aa" valueTypeId="fec4d720-bb58-4eda-9af4-e52156f3ee2b"/>
+    <recordSetType typeId="7493c6a9-fb4b-40a3-b74b-043c99f21a52" valueTypeId="17d35241-1cb7-4215-bc1d-3b49c18792c9"/>
+    <recordKeyType typeId="8fcf2345-c809-4edd-b950-69e5e65363f8" valueTypeId="9affbaa7-f30f-42a5-8ae9-65013b6ed8d0"/>
+    <recordType typeId="af094b32-5a76-425e-a61e-5d4396bed4f6" valueTypeId="27477ebc-fa6e-4a9f-85bb-22a42d3dbb4c"/>
+    <recordManagerType typeId="c8466a7a-94da-44bc-981c-6deff7309d16" valueTypeId="6ea1ec5e-cc3e-4b04-843a-5d77632230b5"/>
+  </producedTypes>
+  <name>СоответствияТочекОплатыИЦелейЗаргузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия точек оплаты и целей заргузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СоответствияТочекОплатыИЦелейЗаргузки.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СоответствияТочекОплатыИЦелейЗаргузки.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8385e796-b938-4fac-b27f-7c5d8526b0f6">
+    <name>МестоПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаРасходовДенежныхСредств</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9edf1666-621d-4381-aab1-1592ad7aa727">
+    <name>СтатьяДоходовРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья доходов расходов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходовИРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="e7306508-1f6d-4542-a771-c8b27ddc015e">
+    <name>ИсправленоВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлено вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1f6024ff-0d16-42c7-a07b-91b9ac45031c">
+    <name>ТочкаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка оплаты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаТранзакцийИзБанкКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2447268c-4985-4bb9-a387-3d964ca69ca1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d062209-63a4-4df2-8ec0-4cb009bb8642">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

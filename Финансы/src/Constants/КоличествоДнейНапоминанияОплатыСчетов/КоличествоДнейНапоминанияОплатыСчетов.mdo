@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc25a083-f82f-4062-8ee7-f852dd446930">
+  <producedTypes>
+    <managerType typeId="6bad4467-c997-4e85-8bb9-c3481db69627" valueTypeId="8ae19160-1b67-40f5-941c-ffecf85665bb"/>
+    <valueManagerType typeId="b60eb928-7d77-4cb1-af05-37ea4f6b6909" valueTypeId="24b0552d-5eb3-4630-9f81-89857acac344"/>
+    <valueKeyType typeId="176066f2-5235-555b-a282-6cd5b7f5f128" valueTypeId="a9a5f53b-c109-56d0-ba4e-d752848e6ee9"/>
+  </producedTypes>
+  <name>КоличествоДнейНапоминанияОплатыСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней напоминания оплаты счетов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
